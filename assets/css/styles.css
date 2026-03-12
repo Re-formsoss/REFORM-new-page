@@ -16790,4 +16790,14 @@ ul {
   color: var(--bs-dark);
   background-color: var(--bs-white);
 }/*# sourceMappingURL=styles.css.map */
+.marquee-tag {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.marquee-tag img {
+  max-height: 600px;
+  width: auto;
+}
