@@ -16791,7 +16791,23 @@ ul {
   background-color: var(--bs-white);
 }/*# sourceMappingURL=styles.css.map */
 .marquee-tag img {
-  height: 100px;
+  height: 80px;
   width: auto;
   object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.marquee-tag img:hover {
+  transform: scale(1.1);
+}
+.marquee {
+  margin-bottom: 0;
+}
+
+.marquee-content {
+  margin-bottom: 0;
+}
+
+section {
+  padding-bottom: 30px;
 }
